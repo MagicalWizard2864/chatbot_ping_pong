@@ -1,8 +1,4 @@
-/* ================================================
-   PINGPONG AI - JAVASCRIPT
-   ================================================ */
 
-// Sample AI responses
 const aiResponses = [
     "That's an interesting question! Let me think about that...",
     "Great point! Here's my perspective on this topic.",
@@ -37,9 +33,7 @@ const quickActions = document.querySelectorAll('.quick-action');
 let isFirstMessage = true;
 let conversationHistory = [];
 
-/* ================================================
-   LOCAL STORAGE
-   ================================================ */
+
 
 function loadData() {
     const savedHistory = localStorage.getItem('pingpong_history');
@@ -61,9 +55,7 @@ function saveData() {
     localStorage.setItem('pingpong_history', JSON.stringify(conversationHistory));
 }
 
-/* ================================================
-   HELPER FUNCTIONS
-   ================================================ */
+
 
 function getCurrentTime() {
     const now = new Date();
@@ -80,9 +72,7 @@ function escapeHtml(text) {
     return div.innerHTML;
 }
 
-/* ================================================
-   MESSAGE FUNCTIONS
-   ================================================ */
+
 
 function addMessage(text, sender) {
     const messageDiv = document.createElement('div');
@@ -164,9 +154,7 @@ function sendMessage() {
     generateAIResponse();
 }
 
-/* ================================================
-   INPUT HANDLING
-   ================================================ */
+
 
 function autoResizeTextarea() {
     messageInput.style.height = 'auto';
@@ -184,9 +172,7 @@ function updateCharCount() {
     charCount.style.color = length > 4500 ? '#ef4444' : '';
 }
 
-/* ================================================
-   THEME TOGGLE
-   ================================================ */
+
 
 function toggleTheme() {
     document.body.classList.toggle('light-theme');
@@ -195,9 +181,7 @@ function toggleTheme() {
     themeToggle.innerHTML = isLight ? '<i class="fas fa-moon"></i>' : '<i class="fas fa-adjust"></i>';
 }
 
-/* ================================================
-   NAVIGATION
-   ================================================ */
+
 
 function switchTab(tabName) {
     navTabs.forEach(tab => {
@@ -242,9 +226,7 @@ function renderHistory() {
     }
 }
 
-/* ================================================
-   CHAT ACTIONS
-   ================================================ */
+
 
 function clearAllChat() {
     if (confirm('Clear all messages?')) {
@@ -290,9 +272,7 @@ function clearAllHistory() {
     }
 }
 
-/* ================================================
-   EVENT LISTENERS
-   ================================================ */
+
 
 // Send button
 sendBtn.addEventListener('click', sendMessage);
@@ -354,9 +334,7 @@ document.addEventListener('keydown', (e) => {
     }
 });
 
-/* ================================================
-   INITIALIZATION
-   ================================================ */
+
 
 window.addEventListener('load', () => {
     loadData();
