@@ -1,10 +1,3 @@
-/* ================================================
-   PINGPONG AI - MODERN GLASS CHAT UI
-   ================================================ */
-
-/* ================================================
-   CSS VARIABLES & THEME
-   ================================================ */
 
 :root {
     /* Primary Colors - Purple/Teal Gradient Theme */
@@ -95,9 +88,7 @@ body.light-theme {
     --gradient-bg: linear-gradient(180deg, #f8fafc 0%, #f1f5f9 100%);
 }
 
-/* ================================================
-   RESET & BASE
-   ================================================ */
+
 
 *, *::before, *::after {
     margin: 0;
@@ -120,9 +111,7 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
-/* ================================================
-   APP CONTAINER
-   ================================================ */
+
 
 .app-container {
     display: flex;
@@ -133,9 +122,7 @@ body {
     background: var(--bg-primary);
 }
 
-/* ================================================
-   TOP NAVIGATION
-   ================================================ */
+
 
 .top-nav {
     height: var(--nav-height);
@@ -246,9 +233,7 @@ body {
     transform: translateY(-2px);
 }
 
-/* ================================================
-   MAIN CONTENT
-   ================================================ */
+
 
 .main-content {
     flex: 1;
@@ -265,9 +250,7 @@ body {
     position: relative;
 }
 
-/* ================================================
-   WELCOME SCREEN
-   ================================================ */
+
 
 .welcome-screen {
     flex: 1;
@@ -389,9 +372,7 @@ body {
     color: var(--text-primary);
 }
 
-/* ================================================
-   MESSAGES CONTAINER
-   ================================================ */
+
 
 .messages-container {
     flex: 1;
@@ -430,9 +411,7 @@ body {
     background: var(--text-muted);
 }
 
-/* ================================================
-   MESSAGE BUBBLES
-   ================================================ */
+
 
 .message {
     display: flex;
@@ -524,9 +503,7 @@ body {
     padding: 0 var(--space-2);
 }
 
-/* ================================================
-   TYPING INDICATOR
-   ================================================ */
+
 
 .typing-container {
     position: absolute;
@@ -593,9 +570,7 @@ body {
     30% { transform: translateY(-8px); opacity: 1; }
 }
 
-/* ================================================
-   INPUT AREA
-   ================================================ */
+
 
 .input-area {
     padding: var(--space-4) var(--space-6) var(--space-6);
@@ -722,9 +697,7 @@ body {
     border-top: 1px solid var(--border-color);
 }
 
-/* ================================================
-   HISTORY PANEL
-   ================================================ */
+
 
 .history-panel {
     width: 320px;
@@ -812,18 +785,12 @@ body {
     color: var(--text-muted);
 }
 
-/* ================================================
-   ANIMATIONS
-   ================================================ */
 
 @keyframes fadeIn {
     from { opacity: 0; }
     to { opacity: 1; }
 }
 
-/* ================================================
-   RESPONSIVE DESIGN
-   ================================================ */
 
 @media (max-width: 768px) {
     :root {
@@ -916,9 +883,6 @@ body {
     }
 }
 
-/* ================================================
-   UTILITY CLASSES
-   ================================================ */
 
 .hidden {
     display: none !important;
