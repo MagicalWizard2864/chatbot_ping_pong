@@ -1,5 +1,3 @@
-# Chat Bot UI - CampusPe Gen AI Assignment
-
 A modern, responsive chat bot interface built with HTML5, CSS3, and JavaScript. Features a clean, professional design inspired by Claude/ChatGPT with a compact sidebar that expands on hover for optimal screen space utilization.
 
 ## 🚀 Features
@@ -34,22 +32,7 @@ A modern, responsive chat bot interface built with HTML5, CSS3, and JavaScript. 
 - **HTML5**: Semantic markup with accessibility attributes
 - **CSS3**: Custom properties, Flexbox, Grid, animations, and responsive design
 - **JavaScript/jQuery**: DOM manipulation, event handling, and localStorage
-- **Bootstrap 5**: Utility classes for responsive design
-- **Font Awesome**: Icon library for UI elements
-- **Google Fonts**: Inter typography
 
-## 📁 Project Structure
-
-```
-chat-bot-ui/
-├── readme.MD
-├── chat-ui/
-│   └── chat.html          # Main HTML file
-├── scripts-ui/
-│   └── scripts.js         # JavaScript functionality
-└── styles/
-    └── styles.css         # Complete styling system
-```
 
 ## 🎨 Design System
 
@@ -74,11 +57,6 @@ chat-bot-ui/
 2. **Open** `chat-ui/chat.html` in your web browser
 3. **Start chatting** - no server required for the UI demo
 
-## 📱 Responsive Breakpoints
-
-- **Desktop**: > 768px - Compact sidebar with hover expansion
-- **Tablet**: ≤ 768px - Overlay sidebar with toggle
-- **Mobile**: ≤ 640px - Full-width overlay sidebar
 
 ## 🎯 Key Features Implementation
 
@@ -148,17 +126,4 @@ Adjust the sidebar width variables:
 - **Responsive First**: Mobile-first approach with progressive enhancement
 - **Performance Focused**: Optimized for smooth user experience
 
-## 🤝 Contributing
 
-This is an assignment project, but feel free to:
-- Report issues
-- Suggest improvements
-- Fork and modify for your own use
-
-## 📄 License
-
-This project is created for educational purposes as part of the CampusPe Gen AI internship assignment.
-
----
-
-**Built with ❤️ for CampusPe Gen AI Internship**
